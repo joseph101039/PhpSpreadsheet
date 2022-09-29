@@ -2159,6 +2159,6 @@ class Xlsx extends BaseReader
             }
         }
 
-        return (count($array) === 64) ? $array : [];
+        return $array;
     }
 }
